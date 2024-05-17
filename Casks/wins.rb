@@ -1,6 +1,6 @@
 
 cask "wins" do
-  version "1.66"
+  version "1.6.6"
   sha256 :no_check
 
   url "https://f005.backblazeb2.com/file/winsWebsite/Wins-latest-1.6.6.dmg", verified: "backblazeb2.com/file/winsWebsite"
