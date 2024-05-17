@@ -11,7 +11,8 @@ cask "wins" do
 
   livecheck do
     url :url
-    strategy :header_match
+    strategy :page_match
+    regex(/Wins-latest-(\d+(?:\.\d+)+)\.dmg/i)
   end
 
   app "Wins.app"
