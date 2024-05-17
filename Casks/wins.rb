@@ -3,7 +3,7 @@ cask "wins" do
   version :latest
   sha256 :no_check
 
-  url "https://f005.backblazeb2.com/file/winsWebsite/Wins-latest-#{version}.dmg", verified: "backblazeb2.com/file/winsWebsite"
+  url "https://f005.backblazeb2.com/file/winsWebsite/Wins-latest-1.6.6.dmg", verified: "backblazeb2.com/file/winsWebsite"
   name "Wins"
   desc "a brand new window manager for macOS"
   homepage "https://wins.cool/"
