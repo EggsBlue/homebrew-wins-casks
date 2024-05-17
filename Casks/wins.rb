@@ -1,19 +1,13 @@
 
 cask "wins" do
   version "1.6.6"
-  sha256 :no_check
+  sha256 "594fb383c26f3b36dfa132312ddbafb0e59f7566616b5f02294e769cecf55605"
 
   url "https://f005.backblazeb2.com/file/winsWebsite/Wins-latest-1.6.6.dmg", verified: "backblazeb2.com/file/winsWebsite"
   name "Wins" 
   desc "a brand new window manager for macOS"
   homepage "https://wins.cool/"
   depends_on macos: '>= :high_sierra'
-
-  livecheck do
-    url :url
-    strategy :page_match
-    regex(/Wins-latest-(\d+(?:\.\d+)+)\.dmg/i)
-  end
 
   app "Wins.app"
 
