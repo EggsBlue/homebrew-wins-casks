@@ -3,11 +3,12 @@ cask "wins" do
   version :latest
   sha256 :no_check
 
-  url "https://f005.backblazeb2.com/file/winsWebsite/Wins-latest-1.6.6.dmg", verified: "backblazeb2.com/file/winsWebsite"
+  url "https://f005.backblazeb2.com/file/winsWebsite/Wins-latest-1.6.6.dmg", verified: "backblazeb2.com/file/winsWebsite/"
   name "Wins"
-  desc "a brand new window manager"
+  desc "A brand new window manager"
   homepage "https://wins.cool/"
-  depends_on macos: '>= :high_sierra'
+  depends_on macos: 
+    ">= :high_sierra"
 
   app "Wins.app"
 
