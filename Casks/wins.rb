@@ -5,7 +5,7 @@ cask "wins" do
 
   url "https://f005.backblazeb2.com/file/winsWebsite/Wins-latest-1.6.6.dmg", verified: "backblazeb2.com/file/winsWebsite"
   name "Wins"
-  desc "a brand new window manager for macOS"
+  desc "a brand new window manager"
   homepage "https://wins.cool/"
   depends_on macos: '>= :high_sierra'
 
