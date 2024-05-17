@@ -5,10 +5,11 @@ cask "wins" do
   version "1.66"
   sha256 :no_check
 
-  url "https://f005.backblazeb2.com/file/winsWebsite/Wins-latest.dmg"
-  name "Wins"
-  desc "Brand new window manager for macOS"
+  url "https://f005.backblazeb2.com/file/winsWebsite/Wins-latest.dmg", verified: "backblazeb2.com/file/winsWebsite"
+  name "Wins" 
+  desc "a brand new window manager for macOS"
   homepage "https://wins.cool/"
+  depends_on macos: '>= :high_sierra'
 
   livecheck do
     url :url
